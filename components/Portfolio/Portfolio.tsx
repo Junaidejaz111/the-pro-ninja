@@ -8,8 +8,8 @@ function Portfolio() {
       <div className="col-lg-12">
         <div className="text-center">
 		  <span className="sub-item-title">My Portfolio Work</span>
-          <h2>Our Portfolio</h2>
-          <p className="text-muted mx-auto section-subtitle mt-3">Lorem ipsum dolor sit amet, consect adipisic elit, sed do eiusmod tempor incididunt ut labore et d magna aliqua enim sed do sit.</p>
+          <h2>Quality is not an act, It is a habit.</h2>
+          <p className="text-muted mx-auto section-subtitle mt-3"></p>
         </div>
       </div>
     </div>

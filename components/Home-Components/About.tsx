@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 function About() {
   return (
    <>
@@ -10,7 +10,7 @@ function About() {
         <div className="mt-0">
           <h2><span className="font-weight-bold">Hello I Am Junaid Ejaz</span></h2>
           <p className="text-muted mt-4">Full Stack Developer</p>
-          <p className="text-muted mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <p className="text-muted mt-2">A passionate developer who simply takes your business ideas and turn them into a fully functioning web application or scale up your existed application with the help of multiple modern technologies. I'm up for listening to your cool ideas and make it happen for you. </p>
 		  {/* <div className="about_short_contact_wrap">
 			<ul>
 				<li>
@@ -47,15 +47,15 @@ function About() {
 		  </div> */}
           <div>
             <ul className="mb-0 about-social list-inline mt-4">
-              <li className="list-inline-item"><a href="#"><i className="mdi mdi-github-face"></i></a></li>
-              <li className="list-inline-item"><a href="#"><i className="mdi mdi-linkedin"></i></a></li>          
-			  <li className="list-inline-item"><a href="#"><i className="mdi mdi-whatsapp"></i></a></li>
+              <li className="list-inline-item"><a href="https://github.com/Junaidejaz111" target={"_blank"}><i className="mdi mdi-github-face"></i></a></li>
+              <li className="list-inline-item"><a href="https://www.linkedin.com/in/junaid-ejaz-015614121/"  target={"_blank"}><i className="mdi mdi-linkedin"></i></a></li>          
+			  <li className="list-inline-item"><a href="https://wa.me/923470621590"  target={"_blank"}><i className="mdi mdi-whatsapp"></i></a></li>
             </ul>
           </div>
         </div>
       </div>
 	  <div className="col-lg-5">
-        <div className="mt-4"> <img src="images/about.png" alt="" className="img-fluid" /> </div>
+        <div className="mt-4"> <Image src="/images/about-1.png" alt="" className="img-fluid" width="512px" height="512px"  /> </div>
       </div>
     </div>
 	<div className="resume-container">

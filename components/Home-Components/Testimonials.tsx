@@ -20,8 +20,8 @@ function Testimonials() {
             <div className="tam_testi_icon text-custom"> <i className="mbri-quote-left"></i> </div>
             <div className="mt-2">
               <div> <img src="images/client-01.png" alt="" className="mx-auto img-fluid d-block rounded-circle" /> </div>
-              <p className="client_review font-italic mt-4 text-center text-muted">"John Willims, a Latin professor at Hampden-Sydney College in Virginia, Lorem ipsum dolor amet looked up one of the more obscur sectetur, from a Lorem Ipsum passage, and going through the cites of the word in classNameical literature, discovere source."</p>
-              <p className="client_name text-center mb-0 mt-4"> - John Willims, <span className="font-weight-bold">Graphic Designer</span></p>
+              <p className="client_review font-italic mt-4 text-center text-muted">"When looking for a web developer, you’d like to find someone who listens to your needs & fulfills those needs with creative solutions that go beyond what you could have envisioned. If that’s what you need, Junaid is the answer. With a combination of highly creative and functional design skills and a solid understanding of overall site development (a rare combination), you’ll actually enjoy working with him!"</p>
+              <p className="client_name text-center mb-0 mt-4"> - Waqas Ali, <span className="font-weight-bold">Technical Team Lead HISDU</span></p>
             </div>
 			<div className="tam_testi_icon2 text-custom"> <i className="mbri-quote-right"></i> </div>
           </div>

@@ -13,11 +13,16 @@ import  '../styles/css/color/default_color.css'
 
 import { ParallaxProvider } from 'react-scroll-parallax';
 import type { AppProps } from 'next/app'
+import Header from '../components/Header'
+import Layout from '../components/Layout'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return ( 
   <ParallaxProvider>
+    <Header/>
+    <Layout>
     <Component {...pageProps} /> 
+    </Layout>
     </ParallaxProvider>
     )
 }

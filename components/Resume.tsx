@@ -1,25 +1,32 @@
 
-import React from 'react'
-//import { usePdf } from '@mikecousins/react-pdf'
+
+import React, { useState } from 'react';
+import { Document, Page, pdfjs } from 'react-pdf'
+import Loader from './Loader';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
-// const [page, setPage] = useState(1);
-// const canvasRef = useRef(null);
 
-// const { pdfDocument, pdfPage } = usePdf({
-//   file: '/Junaid-Ejaz-Resume.pdf',
-//   page,
-//   canvasRef,
-// });
+function Resume(){
+  
 
-function Resume() {
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
 
 
   return (
-    <div>
-        {/* {!pdfDocument && <span>Loading...</span>}
-      <canvas ref={canvasRef} /> */}
+    <section className="section" id="contact">
+    <div className="container">
+      <div className="row justify-content-center">
+        <div className="col-lg-12">
+      <Document file="/Junaid-Ejaz-Resume.pdf"  loading = {<Loader />}>
+      <Page pageNumber={pageNumber} />
+      </Document>
       </div>
+      </div>
+      </div>
+      </section>
+
   )
 }
 

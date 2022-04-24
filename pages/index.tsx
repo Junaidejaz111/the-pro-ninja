@@ -6,21 +6,24 @@ import About from '../components/Home-Components/About'
 import Contact from '../components/Home-Components/Contact'
 import Portfolio from '../components/Portfolio/Portfolio'
 import Testimonials from '../components/Home-Components/Testimonials'
+import Resume from '../components/Resume'
 
 
 const Home: NextPage = () => {
   return (
     <>
-    <Header/>
-    <Layout>
+    
      
     <HomeContent />
     <About />
+
     <Portfolio />
     <Testimonials />
+    
     <Contact />
+
     <a href="#" className="back_top"> <i className="mdi mdi-chevron-up"> </i> </a> 
-    </Layout>
+    
 
 
     </>

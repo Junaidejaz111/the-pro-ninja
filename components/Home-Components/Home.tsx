@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import Script from 'next/script'
+
+
 import React from 'react'
 import { ParallaxBanner } from 'react-scroll-parallax';
 
@@ -35,8 +35,8 @@ function HomeContent() {
               <h1 className="header-name text-white text-capitalize mb-0">A Pro Ninja <span className="simple-text-rotate font-weight-bold">Programmer., Full Stack Developer., JS Developer</span></h1>
               {/* <p className="text-white header-desc mt-4">I'm a Freelance UI/UX Designer and Developer based in London, England. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design.</p> */}
 			  <div className="mt-4 pt-2"> 
-				<Link href= "/Resume" ><a className="btn btn-outline-custom custom-btn-item btn-round-6"> Download Cv</a></Link>
-				<a href="#" className="btn btn-outline-custom custom-btn-item btn-round-6">Hire Me!</a> 
+				<a  href= "/Junaid-Ejaz-Resume.pdf" className="btn btn-outline-custom custom-btn-item btn-round-6" download> Download Resume</a>
+				<a href="https://www.upwork.com/freelancers/~01792b4436602a1e93" target="_blank" className="btn btn-outline-custom custom-btn-item btn-round-6">Hire Me!</a> 
 			  </div>
             </div>
           </div>

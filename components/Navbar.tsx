@@ -1,8 +1,11 @@
+
 import React from 'react'
 
+
 function Navbar() {
+ 
   return (
-<nav className="navbar navbar-expand-lg fixed-top custom-nav sticky">
+<nav className={`navbar navbar-expand-lg fixed-top custom-nav sticky`} >
   <div className="container"> <a className="navbar-brand pt-0 logo" href="#"> 
   <img src="./images/logo.png" alt="" className="img-fluid logo-light" /> 
   <img src="./images/logo-dark.png" alt="" className="img-fluid logo-dark"/> </a>
