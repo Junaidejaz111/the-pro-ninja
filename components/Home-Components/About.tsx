@@ -11,45 +11,12 @@ function About() {
           <h2><span className="font-weight-bold">Hello I Am Junaid Ejaz</span></h2>
           <p className="text-muted mt-4">Full Stack Developer</p>
           <p className="text-muted mt-2">A passionate developer who simply takes your business ideas and turn them into a fully functioning web application or scale up your existed application with the help of multiple modern technologies. I'm up for listening to your cool ideas and make it happen for you. </p>
-		  {/* <div className="about_short_contact_wrap">
-			<ul>
-				<li>
-					<span><label>Name:</label>John Williams</span>
-				</li>
-				<li>
-					<span><label>Email:</label><a href="mailto:info@example.com">info@example.com</a></span>
-				</li>
-				<li>
-					<span><label>Birthday:</label>12 March, 1991</span>
-				</li>
-				<li>
-					<span><label>Study:</label>Chicago University</span>
-				</li>
-				<li>
-					<span><label>Phone:</label><a href="#">(+12) 3467-890-123</a></span>
-				</li>												
-				<li>
-					<span><label>From:</label><a className="href_location" href="#">Univercity of Chicago</a></span>
-				</li>
-				<li>
-					<span><label>Residence:</label><a className="href_location" href="#">Chicago</a></span>
-				</li>
-				<li>
-					<span><label>Freelance:</label><a className="href_location" href="#">Available</a></span>
-				</li>	
-				<li>
-					<span><label>Website:</label><a className="href_location" href="#">www.mywebsite.com</a></span>
-				</li>
-				<li>
-					<span><label>Skype:</label><a className="href_location" href="#">@myusername</a></span>
-				</li>		
-			</ul>
-		  </div> */}
+		  
           <div>
             <ul className="mb-0 about-social list-inline mt-4">
-              <li className="list-inline-item"><a href="https://github.com/Junaidejaz111" target={"_blank"}><i className="mdi mdi-github-face"></i></a></li>
-              <li className="list-inline-item"><a href="https://www.linkedin.com/in/junaid-ejaz-015614121/"  target={"_blank"}><i className="mdi mdi-linkedin"></i></a></li>          
-			  <li className="list-inline-item"><a href="https://wa.me/923470621590"  target={"_blank"}><i className="mdi mdi-whatsapp"></i></a></li>
+              <li className="list-inline-item"><a href="https://github.com/Junaidejaz111" target={"_blank"} rel="noreferrer"><i className="mdi mdi-github-face"></i></a></li>
+              <li className="list-inline-item"><a href="https://www.linkedin.com/in/junaid-ejaz-015614121/"  target={"_blank"} rel="noreferrer"><i className="mdi mdi-linkedin"></i></a></li>          
+			  <li className="list-inline-item"><a href="https://wa.me/923470621590"  target={"_blank"} rel="noreferrer"><i className="mdi mdi-whatsapp"></i></a></li>
             </ul>
           </div>
         </div>
@@ -67,9 +34,37 @@ function About() {
 						<span className="bullet"></span>
 						<div className="card">
 							<div className="card-header">
-								<span className="year"><i className="mbri-calendar"></i> 2020 - Present</span>
+								<span className="year"><i className="mbri-calendar"></i>August 2022 - Present</span>
 								<span className="d-block font-weight-400 uppercase">
-									Software Developer 
+								  Remote Full-Stack Developer (Asp.NET, Angular)
+									<span className="separator"></span>
+									<span className="font-weight-700">Selland Technology</span>
+								</span>
+							</div>
+
+						</div>
+					</div>
+				<div className="item">
+						<span className="bullet"></span>
+						<div className="card">
+							<div className="card-header">
+								<span className="year"><i className="mbri-calendar"></i>Jun 2022 - Present</span>
+								<span className="d-block font-weight-400 uppercase">
+									Full-Stack Developer (Asp.NET, Angular)
+									<span className="separator"></span>
+									<span className="font-weight-700">AwatechSols</span>
+								</span>
+							</div>
+							
+						</div>
+					</div>
+					<div className="item">
+						<span className="bullet"></span>
+						<div className="card">
+							<div className="card-header">
+								<span className="year"><i className="mbri-calendar"></i>July 2020 - May 2022</span>
+								<span className="d-block font-weight-400 uppercase">
+									Software Developer (Asp.NET, Angular, PHP)
 									<span className="separator"></span>
 									<span className="font-weight-700">HISDU, Primary & Secondary Health Care Department Punjab, Pakistan</span>
 								</span>
@@ -82,11 +77,11 @@ function About() {
 						<span className="bullet"></span>
 						<div className="card">
 							<div className="card-header">
-								<span className="year"><i className="mbri-calendar"></i> 2019 - 2020</span>
+								<span className="year"><i className="mbri-calendar"></i>Apr 2019 - Jun 2020</span>
 								<span className="d-block font-weight-400 uppercase">
 									Php Developer
 									<span className="separator"></span>
-									<span className="font-weight-700">SDC, IMS</span>
+									<span className="font-weight-700">Software Development Centre, IMS</span>
 								</span>
 							</div>
 						
@@ -105,7 +100,7 @@ function About() {
 							<div className="card-header">
 								<span className="year"><i className="mbri-calendar"></i> 2021 - 2022</span>
 								<span className="d-block font-weight-400 uppercase">
-                                Diploma in Entrepreneurship & SME Management
+                               Post-Graduate Diploma in Entrepreneurship & SME Management
 									<span className="separator"></span>
 									<span className="font-weight-700">Virtual University, Pakistan</span>
 								</span>
